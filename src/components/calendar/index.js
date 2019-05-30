@@ -226,7 +226,7 @@ export default class Calendar extends React.Component {
           }}
           >
             <div style={ { fontSize: '15px'}}>{d}</div>
-            <div style={ { color: `#4a${d}`, fontSize: '12px'}} title="Space left on train ">{ !!calendarExtraData[d] ?  calendarExtraData[d].space : null}</div>
+            <div style={ { color: `#4af`, fontSize: '12px'}} title="Space left on train ">{ !!calendarExtraData[d] ?  calendarExtraData[d].space : null}</div>
           </span>
           
         </td>
